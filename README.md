@@ -16,7 +16,7 @@ In practice, the presence detections collected by the device installed in the ro
 The main components are:
 - **PIR sensor**([PIR sensor](https://www.amazon.it/Yizhet-Pyroelectricity-infrarosso-Movimento-Raspberry/dp/B08B3L19QF/ref=sr_1_1_sspa?adgrpid=55345593071&dchild=1&gclid=Cj0KCQjwufn8BRCwARIsAKzP696JiH1hridGSx5dD2tddE9YdTFCRL5ypv6zLpAIvNV_Hh0asjpckaYaAmNbEALw_wcB&hvadid=255224413892&hvdev=c&hvlocphy=1008800&hvnetw=g&hvqmt=e&hvrand=6820867537556796359&hvtargid=kwd-316121540108&hydadcr=28875_1803268&keywords=sensore+pir&qid=1604246676&sr=8-1-spons&tag=slhyin-21&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFVWkowUjc0M0taUFAmZW5jcnlwdGVkSWQ9QTA0OTAzMTMzN05STk9TTzBWWFZYJmVuY3J5cHRlZEFkSWQ9QTAxMzA0MTUxVzlURkg0MjZFR0tIJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==))
 - **WI-FI ESP32** ([Wi-Fi ESP32](https://www.amazon.it/AZDelivery-ESP32-NodeMCU-Parent/dp/B07Z837RCM))
-![Electronic Components used](images/hw.png?raw=true "Electronic Components used")
+![Electronic Components used](images/hw.jpg?raw=true "Electronic Components used")
 
 ## Application
 With the tool Flutter, we have designed an application, which has the scope to display all the Measurify's funtionalities. It is composeded by two levels:
