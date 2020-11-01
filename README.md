@@ -1,8 +1,8 @@
 # Design and implementation of an embedded system for remote presence control
 ## Prerequisiments
--**Arduino IDE** ([Arduino IDE](https://www.arduino.cc/en/software))
--**Flutter**([Flutter](https://flutter.dev/?gclid=Cj0KCQjwufn8BRCwARIsAKzP696dC_kxSmCd7_eIa0LpRRA0riUA3UmGtYvjM_HUOCycvgLL7McXzpMaAkvaEALw_wcB&gclsrc=aw.ds))
--**Edge Engine**([EdgeEngine](https://github.com/measurify/edge))
+- **Arduino IDE** ([Arduino IDE](https://www.arduino.cc/en/software))
+- **Flutter**([Flutter](https://flutter.dev/?gclid=Cj0KCQjwufn8BRCwARIsAKzP696dC_kxSmCd7_eIa0LpRRA0riUA3UmGtYvjM_HUOCycvgLL7McXzpMaAkvaEALw_wcB&gclsrc=aw.ds))
+- **Edge Engine**([EdgeEngine](https://github.com/measurify/edge))
 
 ## Overview
 The purpose of this thesis work is to illustrate the design of a system to monitor a room and notify any new presences in the room itself.
@@ -32,13 +32,13 @@ After the microcontroller and the sensor have been connected together as the pic
 
 ## Set username and password in *ESP32sourceCode.ino*
 In order to access Measurify with your credentials, you need to set them in *ESP32sourceCode.ino*
--	opts.username = "your-username";
-  	opts.password =  "your-password";
+- opts.username = "your-username";
+  opts.password =  "your-password";
 
 ## Set internet connection
 In order to connect you system to Internet, so you can communicate with Measurify, you need to set the connection with your Wi-Fi credentials
--	const char* ssidWifi = "Wi-Fi Name";
-	const char* passWifi = "Wi-Fi Password";
+- const char* ssidWifi = "Wi-Fi Name";
+  const char* passWifi = "Wi-Fi Password";
 ## Upload the program
 After that, you have all the requirements to upload the program on the ESP32. While the program is loaded, you need to push the BOOT bottom on the ESP32. After the program is loaded you need to push the RESET bottom. 
 If the PIR sensor detects a presence, a notification will arrive on the smartphone where the application is installed and where the push notifications are activated
