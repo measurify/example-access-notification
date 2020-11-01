@@ -22,9 +22,9 @@ The main components are:
 With the tool Flutter, we have designed an application, which has the scope to display all the Measurify's funtionalities. It is composeded by two levels:
 -**Login**: with your username and password, you access to Measurify
 -**Home** and **Setting**: show your reserved area, which are active all the rooms, the devices, ecc.
-![Login level](images/Login.jpg?raw=true "Login level")
-![Home Level](images/Home.jpg?raw=true "Home level")
-![Setting Level](images/Setting.jpg?raw=true "Setting level")
+![Login level](images/Login.jpg=500x20?raw=true "Login level")
+![Home Level](images/Home.jpg=500x20?raw=true "Home level")
+![Setting Level](images/Setting.jpg=500x20?raw=true "Setting level")
 ## Quick start
 After the microcontroller and the sensor have been connected together as the picture below, connect the Wi-Fi ESP32 to a USB port of your computer
 
